@@ -15,3 +15,4 @@ C:\Users\Lenovo\source\repos\BulkyBook.DataAccess\obj\Debug\net8.0\BulkyBook.Dat
 C:\Users\Lenovo\source\repos\BulkyBook.DataAccess\obj\Debug\net8.0\ref\BulkyBook.DataAccess.dll
 C:\Users\Lenovo\source\repos\BulkyBook.DataAccess\bin\Debug\net8.0\BulkyBook.DataAccess.runtimeconfig.json
 C:\Users\Lenovo\source\repos\BulkyBook.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\BulkyBook.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.sourcelink.json

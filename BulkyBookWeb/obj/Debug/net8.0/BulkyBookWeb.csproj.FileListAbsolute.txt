@@ -254,3 +254,4 @@ C:\Users\Lenovo\source\repos\BulkyBookWeb\bin\Debug\net8.0\BulkyBook.DataAccess.
 C:\Users\Lenovo\source\repos\BulkyBookWeb\bin\Debug\net8.0\BulkyBook.Models.dll
 C:\Users\Lenovo\source\repos\BulkyBookWeb\bin\Debug\net8.0\BulkyBook.DataAccess.pdb
 C:\Users\Lenovo\source\repos\BulkyBookWeb\bin\Debug\net8.0\BulkyBook.Models.pdb
+C:\Users\Lenovo\source\repos\BulkyBookWeb\obj\Debug\net8.0\BulkyBookWeb.sourcelink.json
