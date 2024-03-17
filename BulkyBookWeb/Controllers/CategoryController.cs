@@ -16,12 +16,12 @@ namespace BulkyBookWeb.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<BulkyBook.Models.Category> objCategoryList = _db.GetAll();
+            IEnumerable<BulkyBook.Models.Category> objCategoryList = _unitOfWork.Category.GetAll();
             return View(objCategoryList);
         }
 
         //GET
-        public IActionResult Create()
+        public IActionResult Create() 
         {
             return View();
         }
@@ -37,8 +37,8 @@ namespace BulkyBookWeb.Controllers
             }
             if(ModelState.IsValid)
             {
-                _db.Add(obj);
-                _db.Save();
+                _unitOfWork.Category.Add(obj);
+                _unitOfWork.Save();
                 TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
 
@@ -54,7 +54,7 @@ namespace BulkyBookWeb.Controllers
                 return NotFound();
             }
             //var categoryFromDb = _db.Categories.Find(id);
-            var categoryFromDbFirst = _db.GetFirstOrDefault(u => u.Name==id);
+            var categoryFromDbFirst = _unitOfWork.Category.GetFirstOrDefault(u => u.Id==id);
             // categoryFromDbSSingle = _db.Categories.SingleOrDefault(u => u.Id == id);
             if (categoryFromDbFirst == null)
             {
@@ -74,8 +74,8 @@ namespace BulkyBookWeb.Controllers
             }
             if (ModelState.IsValid)
             {
-                _db.Update(obj);
-                _db.Save();
+                _unitOfWork.Category.Update(obj);
+                _unitOfWork.Save();
                 TempData["success"] = "Category updated successfully";
 
                 return RedirectToAction("Index");
@@ -91,7 +91,7 @@ namespace BulkyBookWeb.Controllers
                 return NotFound();
             }
             //var categoryFromDb = _db.Categories.Find(id);
-             var categoryFromDbFirst = _db.GetFirstOrDefault(u => u.Id == id);
+             var categoryFromDbFirst = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
             // categoryFromDbSSingle = _db.Categories.SingleOrDefault(u => u.Id == id);
             if (categoryFromDbFirst == null)
             {
@@ -105,14 +105,14 @@ namespace BulkyBookWeb.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeletePOST(int? id)
         {
-            var obj = _db.GetFirstOrDefault(u => u.Id == id);
+            var obj = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
             if (obj == null)
             {
                 return NotFound();
             }
 
-            _db.Remove(obj);
-            _db.Save();
+            _unitOfWork.Category.Remove(obj);
+            _unitOfWork.Save();
             TempData["success"] = "Category deleted successfully";
 
             return RedirectToAction("Index");
