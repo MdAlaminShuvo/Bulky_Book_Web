@@ -9,3 +9,4 @@ C:\Users\Lenovo\source\repos\BulkyBook.Utility\obj\Debug\net8.0\BulkyBook.Utilit
 C:\Users\Lenovo\source\repos\BulkyBook.Utility\obj\Debug\net8.0\refint\BulkyBook.Utility.dll
 C:\Users\Lenovo\source\repos\BulkyBook.Utility\obj\Debug\net8.0\BulkyBook.Utility.pdb
 C:\Users\Lenovo\source\repos\BulkyBook.Utility\obj\Debug\net8.0\ref\BulkyBook.Utility.dll
+C:\Users\Lenovo\source\repos\BulkyBook.Utility\obj\Debug\net8.0\BulkyBook.Utility.sourcelink.json

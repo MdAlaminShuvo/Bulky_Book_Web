@@ -1,4 +1,4 @@
-using BulkyBook.DataAccess;
+ using BulkyBook.DataAccess;
 using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.DataAccess.Repository;
 using Microsoft.AspNetCore.Builder;
@@ -36,6 +36,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
