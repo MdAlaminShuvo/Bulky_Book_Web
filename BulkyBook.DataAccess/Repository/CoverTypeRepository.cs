@@ -12,7 +12,7 @@ namespace BulkyBook.DataAccess.Repository
     {
         private ApplicationDbContext _db;
 
-        public CoverTypeRepository(ApplicationDbContext db) : base(db) 
+        public CoverTypeRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
         }

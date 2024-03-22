@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BulkyBook.Models
 {
-    public class Prodect
+    public class Product
     {
         public string Id { get; set; }
         [Required]
@@ -43,5 +43,5 @@ namespace BulkyBook.Models
         [Required]
         public int CoverTypeId { get; set; }
         public CoverType CoverType { get; set; }
-    }
+    } 
 }
