@@ -29,7 +29,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
         {
             ProductVM productVM = new ProductVM()
             {
-                Product = new(),
+                Product = new(),   
                 CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
                 {
                     Text = i.Name,
@@ -47,13 +47,13 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
             {
                 //create product
                 /*ViewBag.CategoryList = CategoryList;
-                ViewData["CoverTypeList"] =  ;*/
+                ViewData["CoverTypeList"] = CoverTypeList;*/
                 return View(productVM);
 
             }
             else
             {
-                //update product model
+                //update product model 
             }
             return View(productVM);
         }
@@ -61,11 +61,11 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
         //POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(CoverType obj)
+        public IActionResult Upsert(ProductVM obj, IFormFile file)
         {
             if (ModelState.IsValid)
             {
-                _unitOfWork.CoverType.Update(obj);
+                //_unitOfWork.CoverType.Update(obj);
                 _unitOfWork.Save();
                 TempData["success"] = "CoverType updated successfully";
 
