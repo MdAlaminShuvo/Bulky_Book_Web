@@ -17,6 +17,78 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\0ec65de7-bcd6-45bc-b943-c265a77018b4.png",
+      "PackagePath": "staticwebassets\\images\\products\\0ec65de7-bcd6-45bc-b943-c265a77018b4.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\3b5eb84b-aef2-481e-8724-cea5ed85ec05.png",
+      "PackagePath": "staticwebassets\\images\\products\\3b5eb84b-aef2-481e-8724-cea5ed85ec05.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\3e4a8183-b40b-4eb7-90a0-9d1bb92fd229.png",
+      "PackagePath": "staticwebassets\\images\\products\\3e4a8183-b40b-4eb7-90a0-9d1bb92fd229.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\4c065197-c722-4e22-b274-05fc52f6e9c2.png",
+      "PackagePath": "staticwebassets\\images\\products\\4c065197-c722-4e22-b274-05fc52f6e9c2.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\60ad72f8-2024-47d1-b915-b25403e4f251.png",
+      "PackagePath": "staticwebassets\\images\\products\\60ad72f8-2024-47d1-b915-b25403e4f251.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\6b96dc8c-ceb3-4581-aeb0-ce9392522956.png",
+      "PackagePath": "staticwebassets\\images\\products\\6b96dc8c-ceb3-4581-aeb0-ce9392522956.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\92d3c982-9278-49f2-929b-763bb9cb5933.png",
+      "PackagePath": "staticwebassets\\images\\products\\92d3c982-9278-49f2-929b-763bb9cb5933.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\981cbff3-b098-4cd0-924d-afe5723f20e4.png",
+      "PackagePath": "staticwebassets\\images\\products\\981cbff3-b098-4cd0-924d-afe5723f20e4.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\9e5d1f52-1e16-49ca-8394-5c4b82c2fb0c.png",
+      "PackagePath": "staticwebassets\\images\\products\\9e5d1f52-1e16-49ca-8394-5c4b82c2fb0c.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\d465b68c-4ed7-4016-a7ba-ba410a39b5c0.png",
+      "PackagePath": "staticwebassets\\images\\products\\d465b68c-4ed7-4016-a7ba-ba410a39b5c0.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\d9684dbb-378e-43f1-83dc-1c2596d8e2d9.png",
+      "PackagePath": "staticwebassets\\images\\products\\d9684dbb-378e-43f1-83dc-1c2596d8e2d9.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\da8d02a1-4708-4759-9785-0eca52b55013.png",
+      "PackagePath": "staticwebassets\\images\\products\\da8d02a1-4708-4759-9785-0eca52b55013.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\db53e982-d465-422e-9e1f-0f15220ac453.png",
+      "PackagePath": "staticwebassets\\images\\products\\db53e982-d465-422e-9e1f-0f15220ac453.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\e1ec0d2e-6c61-44d3-93f3-1720c33d9646.png",
+      "PackagePath": "staticwebassets\\images\\products\\e1ec0d2e-6c61-44d3-93f3-1720c33d9646.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\edd4156f-6992-41c5-bb4c-fee1846227b2.png",
+      "PackagePath": "staticwebassets\\images\\products\\edd4156f-6992-41c5-bb4c-fee1846227b2.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\eedd2c33-c350-479d-a4f8-4ebe5929884a.png",
+      "PackagePath": "staticwebassets\\images\\products\\eedd2c33-c350-479d-a4f8-4ebe5929884a.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\images\\products\\fffd3624-e313-43eb-b9e9-eea93eceffa1.png",
+      "PackagePath": "staticwebassets\\images\\products\\fffd3624-e313-43eb-b9e9-eea93eceffa1.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
       "Id": "C:\\Users\\Lenovo\\source\\repos\\BulkyBookWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

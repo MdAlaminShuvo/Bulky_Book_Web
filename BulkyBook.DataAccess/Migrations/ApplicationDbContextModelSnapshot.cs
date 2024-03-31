@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace BulkyBookWeb.Migrations
+namespace BulkyBook.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -65,8 +65,11 @@ namespace BulkyBookWeb.Migrations
 
             modelBuilder.Entity("BulkyBook.Models.Product", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Author")
                         .IsRequired()
@@ -112,7 +115,7 @@ namespace BulkyBookWeb.Migrations
 
                     b.HasIndex("CoverTypeId");
 
-                    b.ToTable("Prodects");
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("BulkyBook.Models.Product", b =>
